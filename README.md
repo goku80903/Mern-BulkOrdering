@@ -1,4 +1,17 @@
-# MERN Stack Boilerplate
+# MERN MarketPlace
+
+## Details
+
+### Customer
+
+The Customer has the features of viewing the various products, selecting the quantity and ordering the product that the customer needs.
+However, The Customer has to wait for the Vedor to dispatch the product that can only be done after the entire product has been ordered by the customers.
+The Customer can then review the Vendor and view the reviews of all the vendors.
+
+### Vendor
+
+The Vendor can create the products with the price and quantity. The status of the product remains waiting till not all of the particular product has been ordered.
+The Vendor can then dispatch the product and view the reviews of the customer after they have reviewed it.
 
 ## Setup
 
@@ -35,7 +48,7 @@ To run the app, cd into the directory and do:
 npm start
 ```
 
-## Running the boilerplate
+## Running the Application
 
 Run Mongo daemon:
 ```
@@ -63,4 +76,5 @@ npm install/
 npm start
 ```
 Navigate to localhost:3000/ in your browser.
+
 
